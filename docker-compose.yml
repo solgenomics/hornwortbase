@@ -1,0 +1,42 @@
+version: "3.7"
+
+services:
+  breedbase:
+    image: breedbase/breedbase:v0.18
+#    depends_on:
+#      - breedbase_db
+    container_name: breedbase_web
+    ports:
+      - 8080:8080
+      - 25:25
+    volumes:
+      - type: bind
+        source: ${HOME}/hornwortbase/sgn_local.conf
+        target: /home/production/cxgn/sgn/sgn_local.conf
+      - type: bind
+        source: ${HOME}/docker/archive
+        target: /home/production/archive
+      - type: bind
+        source: ${HOME}/docker/tmp
+        target: /home/production/tmp
+      - type: bind
+        source: ${HOME}/docker/cache
+        target: /home/production/cache
+      - type: bind
+        source: ${HOME}/docker/cluster
+        target: /home/production/cluster
+      - type: bind
+        source: ${HOME}/docker/blast
+        target: /home/production/blast
+      - type: bind
+        source: ${HOME}/docker/images
+        target: /home/production/images
+#  breedbase_db:
+#    image: breedbase/pg12:v0.5
+#    container_name: breedbase_db
+#    ports:
+#      - 5431:5432
+#    volumes:
+#     - type: bind
+#       source: /home/production/pgdata
+#       target: /var/lib/postgresql/data
