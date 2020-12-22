@@ -1,0 +1,18 @@
+<& /page/page_title.mas, title=>'About the FernBase'  &>
+
+<div class="indentedcontent">
+<p>Most of the 470 million year history of plants on land belongs to bryophytes, lycophytes, ferns, and gymnosperms, which eventually yielded to the infamous dominance of flowering plants 90 million years ago. Ferns represent the third largest of these five radiations, and are the sister group to all seed plants.</p>
+
+<p>However, little is known about fern genomes other than they are generally colossal. Ferns can have chromosome numbers as high as 2n=1440, and genome sizes as high as 1C=148 Gb (a thousand times larger than the Arabidopsis genome). Nevertheless, thanks to the recent advances in sequencing technologies, we are now starting to uncover the secrets of fern genomes.</p>
+
+<p>The FernBase is maintained by the <a href="http://www.fernway.net/">Li</a> and <a href="https://btiscience.org/lukas-mueller/">Mueller</a> groups at Boyce Thompson Institute. Currently it hosts the first two fern genomes ever sequenced, from <i>Azolla filiculoides</i> and <i>Salvinia cucullata</i>.</p>
+
+<h4><i>Azolla</i></h4>
+
+<p><i>Azolla</i> is a group of freshwater ferns that has recently gained research attention in the fields of biofuels, carbon cycling, sustainable crops, and phytoremediation. Because of its obligate symbiotic relationship with the cyanobacterium <i>Nostoc azollae</i>, <i>Azolla</i> has also been used as a natural nitrogen-fixer for rice paddies for over 1000 years. Within its specialized leaf cavities, <i>Azolla</i> harbors an extracellular microbiome that is vertically transmitted between generations, including the nitrogen-fixing cyanobiont Nostoc azollae and numerous other bactobionts. This microbiome likely underlies <i>Azolla</i>&prime;s unique characteristics that are pertinent to energy and agricultural applications.</p>
+
+<h4><i>Salvinia</i></h4>
+
+<p>Unlike its sister genus <i>Azolla</i>, <i>Salvinia</i> lacks roots, and instead produces two drastically different types of leaves, one that is photosynthetic and floats on water, while the other is submerged and root-like. <i>Salvinia</i> is therefore an ideal study system to understand the evolutionary fate of organ-specific genes when the organ is lost—do they become pseudogenes, gain new functions, or get co-opted by other organs? Interestingly, we have found that <i>S. cucullata</i> has the smallest genome every reported in ferns, with just 0.255 Gb and would make a nice genomic comparison to <i>Azolla</i>. Several <i>Salvinia</i> species are also invasive species, particularly <i>S. molesta</i>, a pentaploid hybrid that has caused serious problems in waterways of US, various countries in Africa, and Australia.</p>
+
+</div>

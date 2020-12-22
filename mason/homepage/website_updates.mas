@@ -1,0 +1,32 @@
+<%doc>
+    =head1 NAME 
+    
+    website_updates.mas - a mason module to display an html section with website news, read from a file.
+    
+    =head1 DESCRIPTION
+    
+    The module does not require any parameters. If the file read does not succeed, an error message is displayed.
+    
+    =head1 AUTHOR
+    Prashant Hosmani <psh65 at cornell dot edu>
+    Surya Saha <ss2489 at cornell dot edu>
+=cut
+</%doc>
+<%perl>
+    use strict;
+    use File::Spec;
+    use CXGN::Tools::File;
+    
+    my $contents = "Website updates not available at the moment.<br /><br />";
+    
+    eval {
+    
+     $contents = CXGN::Tools::File::get_sections(File::Spec->catfile($c->get_conf('homepage_files_dir'), "website-updates.txt"));
+    
+    };
+    
+</%perl>
+<div class="boxbgcolor1" style="margin:0px;">
+    <% $contents %>
+    <button class="btn btn-sm" onclick=location.href="/oldwebsiteupdates.pl">See all updates...</button>
+</div>

@@ -1,0 +1,17 @@
+
+<!-- site/footer/common.mas is included in the default site/footer.mas in SGN repo -->
+
+<!-- BEGIN FOOTER-->
+
+<br/>
+<hr>
+<div style="margin-left:20pt; margin-top:10pt">
+Fernbase is hosted at the <a href="https://btiscience.org/">Boyce Thompson Institute</a>.<br />
+
+<a href="https://btiscience.org"><img src="/documents/img/bti_logo_2016.png" width="140" /></a>
+</div>
+
+</div><!-- footer -->
+
+
+

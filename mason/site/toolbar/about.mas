@@ -1,0 +1,11 @@
+<li class="dropdown"><a class="menu_click_dropdown dropdown-toggle footer" data-toggle="dropdown" >About</a>
+<!-- <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">About Us<span class="caret"></span></a> -->
+  <ul class="dropdown-menu">
+    <li><a href="/about">About HornwortBase</a></li>
+    <li><a href="/contact/form">Contact</a></li>
+<!--    <li role="separator" class="divider"></li>
+    <li><a href="https://twitter.com/solgenomics">Twitter</a></li> -->
+    <li role="separator" class="divider"></li>
+    <li><a href="ftp://ftp.hornwortbase.org">FTP</a></li>
+  </ul>
+</li>

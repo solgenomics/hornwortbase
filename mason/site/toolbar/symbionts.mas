@@ -1,0 +1,18 @@
+<li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Symbionts</a>
+    <ul class="dropdown-menu">
+        <li class="dropdown-header">JBrowse</li>
+        <li><a href="/jbrowse_fernbase/?data=data/json/Nostoc_caroliniana"><i>Nostoc azollae Azolla caroliniana</i></a></li>
+        <li><a href="/jbrowse_fernbase/?data=data/json/Nostoc_mexicana"><i>Nostoc azollae Azolla mexicana</i></a></li>
+        <li><a href="/jbrowse_fernbase/?data=data/json/Nostoc_microphylla"><i>Nostoc azollae Azolla microphylla</i></a></li>
+        <li><a href="/jbrowse_fernbase/?data=data/json/Nostoc_nilotica"><i>Nostoc azollae Azolla nilotica</i></a></li>
+        <li><a href="/jbrowse_fernbase/?data=data/json/Nostoc_rubra"><i>Nostoc azollae Azolla rubra</i></a></li>
+        <li role="separator" class="divider"></li>
+        <li class="dropdown-header">Blast</li>
+        <li><a href="/tools/blast?db_id=41"><i>Nostoc azollae Azolla caroliniana</i></a></li>
+        <li><a href="/tools/blast?db_id=42"><i>Nostoc azollae Azolla mexicana</i></a></li>
+        <li><a href="/tools/blast?db_id=43"><i>Nostoc azollae Azolla microphylla</i></a></li>
+        <li><a href="/tools/blast?db_id=44"><i>Nostoc azollae Azolla nilotica</i></a></li>
+        <li><a href="/tools/blast?db_id=45"><i>Nostoc azollae Azolla rubra</i></a></li>
+    </ul>
+</li>

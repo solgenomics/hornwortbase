@@ -1,0 +1,30 @@
+<%doc>
+    =head1 NAME 
+    
+    oldwebsiteupdates.mas - a mason module to display an html page with all CG.org updates, read from a file.
+    
+    =head1 DESCRIPTION
+    
+    The module does not require any parameters. If the file read does not succeed, an error message is displayed.
+    
+    =head1 AUTHOR
+    Prashant Hosmani
+    Surya Saha <ss2489 at cornell dot edu>
+=cut
+</%doc>
+<%once>
+    use strict;
+    use File::Spec;
+</%once>
+<%perl>
+    my $file =File::Spec->catfile($c->get_conf('homepage_files_dir'), "website-updates.txt");
+    
+    my $updates = qq { 
+<p class="boxbgcolor5"><br />The past and present Ferbase portal updates are currently unavailable due to a server problem. We apologize for any inconvenience. Please check back later.<br /><br /></p>
+<br /><br /> };
+eval {
+$updates = $m->file($file);
+};
+</%perl>
+<& /page/page_title.mas, title=>'Past and present Fernbase portal updates' &>
+<% $updates %>
