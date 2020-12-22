@@ -1,8 +1,17 @@
 <%args>
     $schema
 </%args>
-<& homepage/carousel.mas &>
-<br>
+<!-- & homepage/carousel.mas & -->
+
+<center>
+<h1>Welcome to Hornwortbase!</h1>
+</center>
+
+
+<br />
+<br />
+<br />
+<br />
 
 <div class="container-fluid">
   <div class="row">

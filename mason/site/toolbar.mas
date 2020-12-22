@@ -11,6 +11,7 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
+        <& toolbar/genomes.mas &>
         <& toolbar/analyze.mas &>
         <!-- li><a href="https://lycophyte.sgn.cornell.edu/">Lycophyte genomes</a></li>
 	<& toolbar/symbionts.mas &>
@@ -18,7 +19,8 @@
         <& toolbar/about.mas &>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <& toolbar/search.mas &>
+        <& toolbar/genomes.mas &>
+	<& toolbar/tools.mas &>
         <& toolbar/login.mas &>
       </ul>
     </div>

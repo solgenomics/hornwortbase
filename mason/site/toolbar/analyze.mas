@@ -1,15 +1,15 @@
 <li class="dropdown">
-    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Hornwort genomes</a>
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Tools</a>
     <ul class="dropdown-menu">
-        <li class="dropdown-header">JBrowse</li>
-        <!-- li><a href="/jbrowse_fernbase/?data=data/json/Azolla_asm_v1.1"><i>Azolla filiculoides</i></a></li -->
-        <!-- li><a href="/jbrowse_fernbase/?data=data/json/Salvinia_asm_v1.2"><i>Salvinia cucullata</i></a></li -->
-        <li role="separator" class="divider"></li>
-        <li class="dropdown-header">Blast</li>
-        <!-- li><a href="/tools/blast?db_id=34"><i>Azolla filiculoides</i></a></li -->
-        <!-- li><a href="/tools/blast?db_id=38"><i>Salvinia cucullata</i></a></li -->
-        <li role="separator" class="divider"></li>
-        <li class="dropdown-header">Genome annotation editor</li>
-        <!--  li><a href="http://fernbase-webapollo.sgn.cornell.edu/apollo" target="_blank"><i>Fern Apollo</i></a></li -->    
+    	<li class="dropdown-header">BLAST</li>
+	<li><a href="/tools/blast?db_id=2"><i>Anthoceros fusiformis</i></a></li>
+	<li><a href="/tools/blast?db_id=5"><i>Anthoceros punctatus</i></a></li>
+	<li><a href="/tools/blast?db_id=8"><i>Leiosporoceros dussii</i></a></li>
+	<li><a href="/tools/blast?db_id=11"><i>Notothylas orbicularis</i></a></li>
+	<li><a href="/tools/blast?db_id=14"><i>Paraphymatoceros pearsonii</i></a></li>
+	<li><a href="/tools/blast?db_id=17"><i>Phaeoceros carolinianus</i></a></li>
+	<li><a href="/tools/blast?db_id=20"><i>Phaeoceros sp</i></a></li>
+	<li><a href="/tools/blast?db_id=23"><i>Phymatoceros bulbiculosus</i></a></li>
+
     </ul>
 </li>
