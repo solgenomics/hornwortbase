@@ -1,18 +1,12 @@
-<& /page/page_title.mas, title=>'About the FernBase'  &>
+<& /page/page_title.mas, title=>'About Hornwortbase' &>
 
-<div class="indentedcontent">
-<p>Most of the 470 million year history of plants on land belongs to bryophytes, lycophytes, ferns, and gymnosperms, which eventually yielded to the infamous dominance of flowering plants 90 million years ago. Ferns represent the third largest of these five radiations, and are the sister group to all seed plants.</p>
 
-<p>However, little is known about fern genomes other than they are generally colossal. Ferns can have chromosome numbers as high as 2n=1440, and genome sizes as high as 1C=148 Gb (a thousand times larger than the Arabidopsis genome). Nevertheless, thanks to the recent advances in sequencing technologies, we are now starting to uncover the secrets of fern genomes.</p>
+<p>Hornworts are a unique group of bryophytes, separated from all other land plants by more than 400 million years of evolution. With only a few hundred species, hornworts are a much smaller group than their closest relatives, the mosses and liverworts. Nevertheless, they contain several unique or unusual characteristics -- linear sporophytes with a basal intercalary meristem, a pyrenoid-based carbon concentrating mechanism, and symbiotic associations with cyanobacteria enclosed in specialized thallus cavities.
+</p>
 
-<p>The FernBase is maintained by the <a href="http://www.fernway.net/">Li</a> and <a href="https://btiscience.org/lukas-mueller/">Mueller</a> groups at Boyce Thompson Institute. Currently it hosts the first two fern genomes ever sequenced, from <i>Azolla filiculoides</i> and <i>Salvinia cucullata</i>.</p>
+<p>Using the newly developed genomes hosted on HornwortBase, we are interested is answering evolutionary questions at various scales, from studying change in genes after land plants diverged from their aquatic algal ancestors, to identifying genes associated with recent phenotypic shifts among hornwort lineages. We are particularly interested in the origin and function of the pyrenoid-based carbon concentrating mechanism, hornworts being the only land plants with this structure which they may have inherited from algal ancestors. The structural appearance of the pyrenoid varies considerably among hornwort genera, with some lacking it entirely, presenting an ideal system for comparative genetic study. Conversely, the presence of nitrogen-fixing algal symbionts in the vast majority of hornwort species (absent in most other groups of plants) provides a framework to study how hornworts regulate and benefit from this symbiosis, how the associated genetic pathways have been conserved over millions of years, and why this presumably beneficial association is lacking in most of the hornwort's closest relatives. 
+</p>
 
-<h4><i>Azolla</i></h4>
+<p>Hornwortbase is maintained by the <a href="http://www.fernway.net/">Li</a> lab with database support by the <a href="https://btiscience.org/lukas-mueller/">Mueller</a> group, both at Boyce Thompson Institute. 
+</p>
 
-<p><i>Azolla</i> is a group of freshwater ferns that has recently gained research attention in the fields of biofuels, carbon cycling, sustainable crops, and phytoremediation. Because of its obligate symbiotic relationship with the cyanobacterium <i>Nostoc azollae</i>, <i>Azolla</i> has also been used as a natural nitrogen-fixer for rice paddies for over 1000 years. Within its specialized leaf cavities, <i>Azolla</i> harbors an extracellular microbiome that is vertically transmitted between generations, including the nitrogen-fixing cyanobiont Nostoc azollae and numerous other bactobionts. This microbiome likely underlies <i>Azolla</i>&prime;s unique characteristics that are pertinent to energy and agricultural applications.</p>
-
-<h4><i>Salvinia</i></h4>
-
-<p>Unlike its sister genus <i>Azolla</i>, <i>Salvinia</i> lacks roots, and instead produces two drastically different types of leaves, one that is photosynthetic and floats on water, while the other is submerged and root-like. <i>Salvinia</i> is therefore an ideal study system to understand the evolutionary fate of organ-specific genes when the organ is lost—do they become pseudogenes, gain new functions, or get co-opted by other organs? Interestingly, we have found that <i>S. cucullata</i> has the smallest genome every reported in ferns, with just 0.255 Gb and would make a nice genomic comparison to <i>Azolla</i>. Several <i>Salvinia</i> species are also invasive species, particularly <i>S. molesta</i>, a pentaploid hybrid that has caused serious problems in waterways of US, various countries in Africa, and Australia.</p>
-
-</div>

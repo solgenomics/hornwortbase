@@ -1,0 +1,18 @@
+<li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Genomes</a>
+    <ul class="dropdown-menu">
+
+        <li class="dropdown-header">Genome annotation editor</li>
+        <!--  li><a href="http://fernbase-webapollo.sgn.cornell.edu/apollo" target="_blank"><i>Fern Apollo</i></a></li -->
+
+        <li class="dropdown-header">JBrowse</li>
+	<li><a target="_top" href="/jbrowse_hornwortbase/?data=data%2Fjson%2FAnthoceros_fusiformis&loc=Anthoceros_fusiformis_v1_contig16%3A784218..1176243&tracks=reference_sequence%2Calignments&highlight="><i>Anthoceros fusiformis</i></a></li>
+	<li><a target="_top" href="/jbrowse_hornwortbase/?data=data%2Fjson%2FAnthoceros_punctatus&loc=Anthoceros_punctatus_v2_contig41%3A287395..431075&tracks=&highlight="><i>Anthoceros punctatus</i></a></li>
+	<li><a target="_top" href="/jbrowse_hornwortbase/?data=data%2Fjson%2FLeiosporoceros_dussii&loc=Leiosporoceros_dussii_v1_contig102%3A110940..166423&tracks=&highlight="><i>Leiosporoceros dussii</i></a></li>
+	<li><a target="_top" href="/jbrowse_hornwortbase/?data=data%2Fjson%2FNotothylas_orbicularis&loc=Notothylas_orbicularis_v1_contig1%3A10017163..15025743&tracks=&highlight="><i>Notothylas orbicularis</i></a></li>
+	<li><a target="_top" href="/jbrowse_hornwortbase/?data=data%2Fjson%2FParaphymatoceros_pearsonii&loc=Paraphymatoceros_pearsonii_v1_contig239%3A1480..2218&tracks=&highlight="><i>Paraphymatoceros pearsonii</i></a></li>
+	<li><a target="_top" href="/jbrowse_hornwortbase/?data=data%2Fjson%2FPhaeoceros_carolinianus&loc=Phaeoceros_carolinianus_v1_contig12%3A1701759..1703432&tracks=&highlight="><i>Phaeoceros carolinianus</i></a></li>
+	<li><a target="_top" href="/jbrowse_hornwortbase/?data=data%2Fjson%2FPhaeoceros_sp&loc=Phaeoceros_sp_v1_contig7%3A2813260..4219647&tracks=&highlight="><i>Phaeoceros sp</i></a></li>
+	<li><a target="_top" href="/jbrowse_hornwortbase/?data=data%2Fjson%2FPhymatoceros_bulbiculosus&loc=Phymatoceros_bulbiculosus_v1_contig3%3A5414457..8121179&tracks=&highlight="><i>Phymatoceros bulbiculosus</i></a></li>
+    </ul>
+</li>

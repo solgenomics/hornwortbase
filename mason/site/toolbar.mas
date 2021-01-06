@@ -19,8 +19,6 @@
         <& toolbar/about.mas &>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <& toolbar/genomes.mas &>
-	<& toolbar/tools.mas &>
         <& toolbar/login.mas &>
       </ul>
     </div>
