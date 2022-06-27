@@ -6,7 +6,20 @@
 <center>
 <h1>Welcome to Hornwortbase!</h1>
 </center>
+<br />
+Hornworts are a unique group of bryophytes, separated from all other land plants by more than 400 million years of evolution. With only a few hundred species, hornworts are a much smaller group than their closest relatives, the mosses and liverworts. Nevertheless, they contain several unique or unusual characteristics -- linear sporophytes with a basal intercalary meristem, a pyrenoid-based carbon concentrating mechanism, and symbiotic associations with cyanobacteria enclosed in specialized thallus cavities. [<a href="/about/index.pl">More...</a>]
+<br />
+<br />
 
+<center>
+
+<& /image/embed_image.mas, dbh=>$schema->storage->dbh(), size=>'medium', image_id=> 2425 &>
+<& /image/embed_image.mas, dbh=>$schema->storage->dbh(), size=>'medium', image_id=> 2427 &> <br /><br />
+<& /image/embed_image.mas, dbh=>$schema->storage->dbh(), size=>'medium', image_id=> 2426 &> 
+<& /image/embed_image.mas, dbh=>$schema->storage->dbh(), size=>'medium', image_id=> 2429 &> <br /><br />
+<& /image/embed_image.mas, dbh=>$schema->storage->dbh(), size=>'medium', image_id=> 2428 &> 
+
+</center>
 
 <br />
 <br />

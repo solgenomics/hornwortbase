@@ -2,14 +2,7 @@
     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Tools</a>
     <ul class="dropdown-menu">
     	<li class="dropdown-header">BLAST</li>
-	<li><a href="/tools/blast?db_id=2"><i>Anthoceros fusiformis</i></a></li>
 	<li><a href="/tools/blast?db_id=5"><i>Anthoceros punctatus</i></a></li>
-	<li><a href="/tools/blast?db_id=8"><i>Leiosporoceros dussii</i></a></li>
-	<li><a href="/tools/blast?db_id=11"><i>Notothylas orbicularis</i></a></li>
-	<li><a href="/tools/blast?db_id=14"><i>Paraphymatoceros pearsonii</i></a></li>
-	<li><a href="/tools/blast?db_id=17"><i>Phaeoceros carolinianus</i></a></li>
-	<li><a href="/tools/blast?db_id=20"><i>Phaeoceros sp</i></a></li>
-	<li><a href="/tools/blast?db_id=23"><i>Phymatoceros bulbiculosus</i></a></li>
 
     </ul>
 </li>
