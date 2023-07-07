@@ -11,25 +11,25 @@ services:
       - 25:25
     volumes:
       - type: bind
-        source: ${HOME}/docker/sgn_local.conf
+        source: ${HOME}/hornwortbase/sgn_local.conf
         target: /home/production/cxgn/sgn/sgn_local.conf
       - type: bind
-        source: ${HOME}/docker/archive
+        source: /export/prod/public_hornwortbase/archive
         target: /home/production/archive
       - type: bind
-        source: ${HOME}/docker/tmp
+        source: /export/prod/public_hornwortbase/tmp
         target: /home/production/tmp
       - type: bind
-        source: ${HOME}/docker/cache
+        source: /export/prod/public_hornwortbase/cache
         target: /home/production/cache
       - type: bind
-        source: ${HOME}/docker/cluster
+        source: /export/prod/public_hornwortbase/cluster
         target: /home/production/cluster
       - type: bind
-        source: ${HOME}/docker/blast
+        source: /export/prod/public_hornwortbase/blast
         target: /home/production/blast
       - type: bind
-        source: ${HOME}/docker/images
+        source: /export/prod/public_hornwortbase/images
         target: /home/production/images
       - type: bind
         source: ${HOME}/hornwortbase
