@@ -1,22 +1,11 @@
+<& /page/page_title.mas, title=>'About Hornwortbase' &>
 
-<& /page/page_title.mas, title=>"CassavaBase Help" &>
+<p>Hornworts are a unique group of bryophytes, separated from all other land plants by more than 400 million years of evolution. With only a few hundred species, hornworts are a much smaller group than their closest relatives, the mosses and liverworts. Nevertheless, they contain several unique or unusual characteristics -- linear sporophytes with a basal intercalary meristem, a pyrenoid-based carbon concentrating mechanism, and symbiotic associations with cyanobacteria enclosed in specialized thallus cavities.
+</p>
 
-<div class="panel panel-default">
-<div class="panel-body">
-<p>The complete CassavaBase help is available from the <a href="https://docs.google.com/document/d/1ZJjxsarGqGTv4HgJTt-EodOoaEmJ3lgSeV0Qq_YKJaY/edit">CassavaBase Manual</a>.</p>
-<p>For frequently asked questions, see the <a href="/help/faq">FAQ page</a>.</p>
-</div>
-</div>
+<p>Using the newly developed genomes hosted on HornwortBase, we are interested is answering evolutionary questions at various scales, from studying change in genes after land plants diverged from their aquatic algal ancestors, to identifying genes associated with recent phenotypic shifts among hornwort lineages. We are particularly interested in the origin and function of the pyrenoid-based carbon concentrating mechanism, hornworts being the only land plants with this structure which they may have inherited from algal ancestors. The structural appearance of the pyrenoid varies considerably among hornwort genera, with some lacking it entirely, presenting an ideal system for comparative genetic study. Conversely, the presence of nitrogen-fixing algal symbionts in the vast majority of hornwort species (absent in most other groups of plants) provides a framework to study how hornworts regulate and benefit from this symbiosis, how the associated genetic pathways have been conserved over millions of years, and why this presumably beneficial association is lacking in most of the hornwort's closest relatives. 
+</p>
 
-<h4>Citing CassavaBase</h4>
-
-If CassavaBase is useful in your research, please cite CassavaBase in your publications using the following reference:
-<br /><br />
-<div class="well">
-Fernandez-Pozo N, Menda N, Edwards JD, Saha S, Tecle IY, Strickler SR, Bombarely A, Fisher-York T, Pujar A, Foerster H, Yan A, Mueller LA. <b>The Sol Genomics Network (SGN)—from genotype to phenotype to breeding.</b> (2015) Nucleic Acids Res. Volume 43 (Database issue):D1036-41. <a href="http://www.ncbi.nlm.nih.gov/pubmed/25428362?dopt=Abstract">PubMed</a>.
-</div>
-
-
-
-
+<p>Hornwortbase is maintained by Peter Schafran of the <a href="http://www.fernway.net/">Li</a> lab, with database support by the <a href="https://btiscience.org/lukas-mueller/">Mueller</a> group. Both labs are located at Boyce Thompson Institute. 
+</p>
 
