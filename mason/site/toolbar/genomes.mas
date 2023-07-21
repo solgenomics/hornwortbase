@@ -6,6 +6,7 @@
         <!--  li><a href="http://fernbase-webapollo.sgn.cornell.edu/apollo" target="_blank"><i>Fern Apollo</i></a></li -->
 
         <li class="dropdown-header">JBrowse</li>
-	<li><a target="_top" href="/jbrowse_hornwortbase/?data=data%2Fjson%2FAnthoceros_punctatus&loc=Anthoceros_punctatus_v2_contig41%3A287395..431075&tracks=&highlight="><i>Anthoceros punctatus</i></a></li>
+	<li><a target="_top" href="/jbrowse2_hornwort">JBrowse2</a></li>
+	<!-- li><a target="_top" href="/jbrowse_hornwortbase/?data=data%2Fjson%2FAnthoceros_punctatus&loc=Anthoceros_punctatus_v2_contig41%3A287395..431075&tracks=&highlight="><i>Anthoceros punctatus</i></a></li -->
     </ul>
 </li>
