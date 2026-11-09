@@ -1,4 +1,7 @@
 !Build/
+sgn_local.conf
+*~
+
 .last_cover_stats
 /META.yml
 /META.json
