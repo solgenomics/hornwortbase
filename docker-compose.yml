@@ -1,18 +1,20 @@
-version: "3.7"
 
 services:
   breedbase:
-    image: breedbase/breedbase:v0.77
+    image: breedbase/breedbase:latest
 #    depends_on:
 #      - breedbase_db
-    container_name: breedbase_web
+    container_name: breedbase_web_hornwortbase
+    restart: unless-stopped
     ports:
-      - 8080:8080
-      - 25:25
+      - 8951:8080
     volumes:
       - type: bind
-        source: ${HOME}/hornwortbase/sgn_local.conf
+        source: ./sgn_local.conf
         target: /home/production/cxgn/sgn/sgn_local.conf
+    #  - type: bind
+    #    source: /export/prod/public_hornwortbase
+    #    target: /home/production/volume
       - type: bind
         source: /export/prod/public_hornwortbase/archive
         target: /home/production/archive
@@ -32,9 +34,8 @@ services:
         source: /export/prod/public_hornwortbase/images
         target: /home/production/images
       - type: bind
-        source: ${HOME}/hornwortbase
-        target: /home/production/cxgn/hornwortbase
-
+        source: ./mason
+        target: /home/production/cxgn/hornwortbase/mason
 #  breedbase_db:
 #    image: breedbase/pg12:v0.5
 #    container_name: breedbase_db
